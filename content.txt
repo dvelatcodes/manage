@@ -1,12 +1,4 @@
 
-  Pricing
-  Product
-  About Us
-  Careers
-  Community
-
-  Get Started
-
   Bring everyone together to build better products.
 
   Manage makes it simple for software teams to plan day-to-day 
