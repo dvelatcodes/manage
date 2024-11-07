@@ -17,3 +17,14 @@
 }
 
 
+nav a:hover {
+    color: var(--dark-grayish-blue);
+}
+
+.genText {
+    color: black;
+}
+
+.genText2 {
+    
+}
