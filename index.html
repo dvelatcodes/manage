@@ -12,7 +12,7 @@
 
  
 </head>
-<body>
+<body class="relative">
   <header class="w-[100vw] sm:w-[80vw] m-auto flex justify-around items-center pt-5">
     <div class="flex items-center gap-x-1">
       <div class="flex gap-x-1">
@@ -27,14 +27,15 @@
       </div>
       <div class="text-xl sm:text-3xl">manage</div>
     </div>
-    <nav class="flex sm:gap-x-10">
+    <nav class="flex flex-col h-[30vh] sm:h-fit w-[80vw] sm:w-fit sm:flex-row sm:gap-x-10 bg-white sm:bg-transparent absolute left-0 right-0 top-20 m-auto sm:m-0  z-20  sm:relative">
       <a href="#">Pricing</a>
       <a href="#">Product</a>
       <a href="#">About Us</a>
       <a href="#">Careers</a>
       <a href="#">Community</a>
     </nav>
-    <button>
+    <div class="shadow absolute z-10 right-0 left-0 top-0 bottom-0 w-screen h-screen bg-black opacity-10"></div>
+    <button class="hidden sm:inline pt-2 pb-2 pl-3 pr-3 font-semibold">
       Get Started
     </button>
   </header>

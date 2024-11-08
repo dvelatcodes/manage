@@ -2,6 +2,7 @@
 
 :root {
     --bright-red: hsl(12, 88%, 59%);
+    --semi-bright-red : hsl(12, 82%, 64%);
     --dark-blue: hsl(228, 39%, 23%);
     --dark-grayish-blue: hsl(227, 12%, 61%);
     --very-dark-blue: hsl(233, 12%, 13%);
@@ -16,6 +17,16 @@
     font-family: "Be Vietnam Pro", sans-serif;
 }
 
+body button {
+    background-color: var(--bright-red);
+    color: white;
+    font-size: 0.8rem;
+}
+
+body button:hover {
+    background-color: var(--semi-bright-red);
+}
+
 
 nav a:hover {
     color: var(--dark-grayish-blue);
@@ -26,5 +37,5 @@ nav a:hover {
 }
 
 .genText2 {
-    
+    color: var(--dark-grayish-blue);
 }
