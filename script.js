@@ -7,7 +7,11 @@ const genText = document.querySelectorAll('.genText');
 const a = document.querySelectorAll('a');
 const shadow = document.querySelector('.shadow');
 const nav = document.querySelector('nav');
-let hamChecker = true;
+const circleOne = document.querySelector('.circleOne');
+const circleTwo = document.querySelector('.circleTwo');
+const circleThree = document.querySelector('.circleThree');
+const circleFour = document.querySelector('.circleFour');
+let circleChecker = 'four';
 let mode = 'light';
 
 moon.addEventListener('click', () => {
@@ -55,3 +59,26 @@ closeHam.addEventListener('click', () => {
     shadow.style.display = 'none';
     nav.style.display = 'none';
 })
+
+setInterval(() => {
+    if (circleChecker === 'four') {
+        circleFour.style.backgroundColor = 'hsl(12, 88%, 59%)';
+        circleTwo.style.backgroundColor = 'rgb(255, 218, 149)';
+        circleChecker = 'two';
+    }
+    else if (circleChecker === 'two') {
+        circleTwo.style.backgroundColor = 'hsl(12, 88%, 59%)';
+        circleOne.style.backgroundColor = 'rgb(255, 218, 149)';
+        circleChecker = 'one';
+    }
+    else if (circleChecker === 'one') {
+        circleOne.style.backgroundColor = 'hsl(12, 88%, 59%)';
+        circleThree.style.backgroundColor = 'rgb(255, 218, 149)';
+        circleChecker = 'three';
+    }
+    else if (circleChecker === 'three') {
+        circleThree.style.backgroundColor = 'hsl(12, 88%, 59%)';
+        circleFour.style.backgroundColor = 'rgb(255, 218, 149)';
+        circleChecker = 'four';
+    }
+}, 1000);
