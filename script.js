@@ -5,6 +5,8 @@ const close = document.querySelector('.close');
 const body = document.querySelector('body');
 const genText = document.querySelectorAll('.genText');
 const  a = document.querySelectorAll('a');
+const shadow = document.querySelector('.shadow');
+let hamChecker  = true;
 let mode = 'light';
 
 moon.addEventListener('click', ()=>{
@@ -33,3 +35,13 @@ sun.addEventListener('click', ()=>{
         mode = 'light'
     }
 });
+
+
+hamburger.addEventListener('click', ()=>{
+    hamburger.style.display = 'none';
+
+})
+
+close.addEventListener('click', ()=>{
+
+})
