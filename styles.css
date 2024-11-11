@@ -22,6 +22,7 @@ body button {
     color: white;
     font-size: 0.8rem;
     cursor: pointer;
+    border-radius: 1rem;
 }
 
 body button:hover {
