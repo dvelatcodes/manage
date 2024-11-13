@@ -20,7 +20,7 @@
 body button {
     background-color: var(--bright-red);
     color: white;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     cursor: pointer;
     border-radius: 1rem;
 }
