@@ -4,6 +4,7 @@ const hamburger = document.querySelector('.ham');
 const closeHam = document.querySelector('.close');
 const body = document.querySelector('body');
 const genText = document.querySelectorAll('.genText');
+const genText2 = document.querySelectorAll('.genText2');
 const a = document.querySelectorAll('a');
 const shadow = document.querySelector('.shadow');
 const nav = document.querySelector('nav');
@@ -22,6 +23,10 @@ moon.addEventListener('click', () => {
         genText.forEach((data) => {
             data.style.color = 'white';
         })
+        genText2.forEach((data) => {
+            data.style.color = 'white';
+            data.style.opacity = '0.9';
+        })
         body.style.backgroundColor = 'black';
         hamburger.style.color = 'white';
         closeHam.style.color = 'white';
@@ -36,6 +41,10 @@ sun.addEventListener('click', () => {
         moon.style.display = 'block';
         genText.forEach((data) => {
             data.style.color = 'black';
+        })
+        genText2.forEach((data) => {
+            data.style.color = 'hsl(227, 12%, 61%)';
+            data.style.opacity = '1';
         })
         body.style.backgroundColor = 'white';
         hamburger.style.color = 'black';
