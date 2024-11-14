@@ -18,11 +18,11 @@
 }
 
 .bg-cover {
-    width: 95vw;
-    height: 40vh;
+    width: 50rem;
+    height: 50rem;
     background-image: url('./images/bg-tablet-pattern.svg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position-y: top;
     background-position-x: right;
 }
