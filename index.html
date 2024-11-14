@@ -14,7 +14,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Manager landing page</title>
   </head>
-  <body class="relative overflow-hidden">
+  <body class="w-screen relative overflow-x-hidden">
     <div
         class="hidden sun text-2xl sm:text-3xl cursor-pointer absolute right-16 sm:right-16 top-7 sm:top-20 z-50"
       >
@@ -25,7 +25,7 @@
       >
         &#9790;
       </div>
-      <div class="bg-cover absolute -right-28 -top-10"></div>
+      <div class="bg-cover w-[320px] h-[320px] xl:w-[800px] xl:h-[800px] absolute -right-28 -top-10 overflow-hidden"></div>
     <header
       class="w-screen sm:w-[80vw] m-auto flex justify-between items-center pt-5 pl-6 sm:pl-0 pr-6 sm:pr-0"
     >
@@ -64,7 +64,7 @@
       <div
         class="hidden shadow absolute z-10 right-0 left-0 top-0 bottom-0 w-screen h-screen bg-black opacity-10"
       ></div>
-      <button class="relative z-10 sm:inline pt-2 pb-2 pl-3 pr-3 font-semibold">
+      <button class="relative z-10 hidden sm:inline pt-2 pb-2 pl-3 pr-3 font-semibold">
         Get Started
       </button>
     </header>

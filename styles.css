@@ -18,13 +18,9 @@
 }
 
 .bg-cover {
-    width: 50rem;
-    height: 50rem;
     background-image: url('./images/bg-tablet-pattern.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: top;
-    background-position-x: right;
 }
 
 body button {
