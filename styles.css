@@ -17,6 +17,14 @@
     font-family: "Be Vietnam Pro", sans-serif;
 }
 
+body {
+    background-image: url('./images/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: top;
+    background-position-x: right;
+}
+
 body button {
     background-color: var(--bright-red);
     color: white;
@@ -40,4 +48,8 @@ nav a:hover {
 
 .genText2 {
     color: var(--dark-grayish-blue);
+}
+
+.hero-left {
+    
 }
