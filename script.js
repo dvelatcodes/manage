@@ -28,8 +28,6 @@ moon.addEventListener('click', () => {
             data.style.opacity = '0.9';
         })
         body.style.backgroundColor = 'black';
-        // hamburger.style.color = 'white';
-        // closeHam.style.color = 'white';
         nav.style.backgroundColor = 'rgb(45, 45, 45)';
         mode = 'dark'
     }
