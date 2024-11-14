@@ -19,7 +19,6 @@ moon.addEventListener('click', () => {
     if (mode === 'light') {
         moon.style.display = 'none';
         sun.style.display = 'block';
-        // sun.style.color = 'white';
         genText.forEach((data) => {
             data.style.color = 'white';
         })
