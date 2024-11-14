@@ -18,10 +18,6 @@
     overflow-x: hidden;
 }
 
-.ham{
-    /* overflow: hidden; */
-}
-
 .bg-cover {
     background-image: url('./images/bg-tablet-pattern.svg');
     background-repeat: no-repeat;
