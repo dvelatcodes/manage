@@ -12,6 +12,7 @@ const circleOne = document.querySelector('.circleOne');
 const circleTwo = document.querySelector('.circleTwo');
 const circleThree = document.querySelector('.circleThree');
 const circleFour = document.querySelector('.circleFour');
+const main = document.querySelector('main'); 
 let circleChecker = 'four';
 let mode = 'light';
 
@@ -55,6 +56,7 @@ hamburger.addEventListener('click', () => {
     closeHam.style.display = 'block';
     shadow.style.display = 'block';
     nav.style.display = 'flex';
+    main.style.height = '80vh';
 })
 
 closeHam.addEventListener('click', () => {
@@ -62,6 +64,7 @@ closeHam.addEventListener('click', () => {
     hamburger.style.display = 'block';
     shadow.style.display = 'none';
     nav.style.display = 'none';
+    main.style.height = 'auto';
 })
 
 setInterval(() => {
