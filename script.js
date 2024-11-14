@@ -47,8 +47,6 @@ sun.addEventListener('click', () => {
             data.style.opacity = '1';
         })
         body.style.backgroundColor = 'white';
-        hamburger.style.color = 'black';
-        closeHam.style.color = 'black';
         nav.style.backgroundColor = 'white';
         mode = 'light'
     }
