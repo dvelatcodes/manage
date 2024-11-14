@@ -18,6 +18,8 @@
 }
 
 .bg-cover {
+    width: 95vw;
+    height: 40vh;
     background-image: url('./images/bg-tablet-pattern.svg');
     background-repeat: no-repeat;
     background-size: contain;
