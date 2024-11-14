@@ -28,7 +28,12 @@ moon.addEventListener('click', () => {
             data.style.opacity = '0.9';
         })
         body.style.backgroundColor = 'black';
+        if (window.innerWidth < 640) {
         nav.style.backgroundColor = 'rgb(45, 45, 45)';
+        }
+        else{
+        nav.style.backgroundColor = 'black';
+        }
         mode = 'dark'
     }
 });
