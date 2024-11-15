@@ -58,6 +58,14 @@ sun.addEventListener('click', () => {
             data.style.color = 'hsl(227, 12%, 61%)';
             data.style.opacity = '1';
         })
+        genText3.forEach((tag) => {
+            if (window.innerWidth < 640) {
+                tag.style.color = 'white';
+            }
+            else{
+                tag.style.color = 'black';
+            }
+        })
         body.style.backgroundColor = 'white';
         nav.style.backgroundColor = 'white';
         mode = 'light'
