@@ -5,6 +5,7 @@ const closeHam = document.querySelector('.close');
 const body = document.querySelector('body');
 const genText = document.querySelectorAll('.genText');
 const genText2 = document.querySelectorAll('.genText2');
+const genText3 = document.querySelectorAll('.genText3');
 const a = document.querySelectorAll('a');
 const shadow = document.querySelector('.shadow');
 const nav = document.querySelector('nav');
