@@ -3,6 +3,7 @@
 :root {
     --bright-red: hsl(12, 88%, 59%);
     --semi-bright-red : hsl(12, 82%, 64%);
+    --base-bright-red : hsl(12, 84%, 74%);
     --dark-blue: hsl(228, 39%, 23%);
     --dark-grayish-blue: hsl(227, 12%, 61%);
     --very-dark-blue: hsl(233, 12%, 13%);
@@ -33,7 +34,7 @@ body button {
 }
 
 .blurry {
-    box-shadow: 2px 6px 7px var(--semi-bright-red);
+    box-shadow: 2px 6px 7px var(--base-bright-red);
 }
 
 body button:hover {
