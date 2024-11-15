@@ -37,10 +37,10 @@ moon.addEventListener('click', () => {
         }
         genText3.forEach((tag) => {
             if (window.innerWidth < 640) {
-                nav.style.color = 'black';
+                tag.style.color = 'black';
             }
             else{
-                nav.style.color = 'white';
+                tag.style.color = 'white';
             }
         })
         mode = 'dark'
