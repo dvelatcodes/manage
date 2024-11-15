@@ -30,7 +30,10 @@ body button {
     font-size: 0.9rem;
     cursor: pointer;
     border-radius: 1rem;
-    box-shadow: 2px 10px 7px 4px var(--semi-bright-red);
+}
+
+.blurry {
+    box-shadow: 2px 6px 7px var(--semi-bright-red);
 }
 
 body button:hover {
