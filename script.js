@@ -13,7 +13,7 @@ const circleOne = document.querySelector('.circleOne');
 const circleTwo = document.querySelector('.circleTwo');
 const circleThree = document.querySelector('.circleThree');
 const circleFour = document.querySelector('.circleFour');
-const main = document.querySelector('main'); 
+const main = document.querySelector('main');
 let circleChecker = 'four';
 let mode = 'light';
 
@@ -30,15 +30,15 @@ moon.addEventListener('click', () => {
         })
         body.style.backgroundColor = 'black';
         if (window.innerWidth < 640) {
-        nav.style.backgroundColor = 'rgb(45, 45, 45)';
+            nav.style.backgroundColor = 'rgb(45, 45, 45)';
         }
-        else{
-        nav.style.backgroundColor = 'black';
+        else {
+            nav.style.backgroundColor = 'black';
         }
-        genText3.forEach((tag)=>{
+        genText3.forEach((tag) => {
             if (window.innerWidth < 640) {
                 nav.style.color = 'rgb(45, 45, 45)';
-                }
+            }
         })
         mode = 'dark'
     }
