@@ -39,6 +39,9 @@ moon.addEventListener('click', () => {
             if (window.innerWidth < 640) {
                 nav.style.color = 'black';
             }
+            else{
+                nav.style.color = 'white';
+            }
         })
         mode = 'dark'
     }
