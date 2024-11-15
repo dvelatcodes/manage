@@ -60,7 +60,7 @@ sun.addEventListener('click', () => {
         })
         genText3.forEach((tag) => {
             if (window.innerWidth < 640) {
-                tag.style.color = 'white';
+                tag.style.color = 'black';
             }
             else{
                 tag.style.color = 'black';
