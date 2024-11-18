@@ -18,23 +18,23 @@
     font-family: "Be Vietnam Pro", sans-serif;
 }
 
-main {
+body {
     overflow-x: hidden;
 }
 
-header * {
-    /* overflow-x: hidden; */
+main {
+    overflow-x: hidden;
 }
 
 section {
     /* overflow-x: hidden; */
 }
 
-.bg-cover {
+/* .bg-cover {
     background-image: url('./images/bg-tablet-pattern.svg');
     background-repeat: no-repeat;
     background-size: contain;
-}
+} */
 
 body button {
     background-color: var(--bright-red);
