@@ -16,6 +16,17 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Be Vietnam Pro", sans-serif;
+}
+
+body {
+    /* overflow-x: hidden; */
+}
+
+header * {
+    /* overflow-x: hidden; */
+}
+
+section {
     overflow-x: hidden;
 }
 
