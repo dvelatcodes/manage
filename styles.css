@@ -18,8 +18,8 @@
     font-family: "Be Vietnam Pro", sans-serif;
 }
 
-body {
-    /* overflow-x: hidden; */
+main {
+    overflow-x: hidden;
 }
 
 header * {
@@ -27,7 +27,7 @@ header * {
 }
 
 section {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .bg-cover {
@@ -65,8 +65,8 @@ nav a:hover {
     color: var(--dark-grayish-blue);
 }
 
-.ghost-bg{
+/* .ghost-bg{
     background-image: url('./images/bg-tablet-pattern.svg');
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
