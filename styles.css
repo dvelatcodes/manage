@@ -18,12 +18,20 @@
     font-family: "Be Vietnam Pro", sans-serif;
 }
 
-body {
+/* body {
+    overflow-x: hidden;
+} */
+
+html {
     overflow-x: hidden;
 }
 
-main {
+/* header{
     overflow-x: hidden;
+} */
+
+main {
+    /* overflow-x: hidden; */
 }
 
 section {
