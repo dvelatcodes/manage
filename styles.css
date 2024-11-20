@@ -55,7 +55,7 @@ nav a:hover {
     animation: scroll1 5s infinite linear;
 }
 
-.scroll-cover:hover{
+.carousel:hover .scroll-cover{
     animation-play-state: paused;
 }
 
