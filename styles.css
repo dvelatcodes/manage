@@ -52,6 +52,16 @@ nav a:hover {
 }
 
 .scroll-cover{
-    animation: scroll1 2s infinite linear;
+    animation: scroll1 5s infinite linear;
+}
+
+
+@keyframes scroll1 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
