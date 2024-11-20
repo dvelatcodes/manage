@@ -52,7 +52,7 @@ nav a:hover {
 }
 
 .scroll-cover{
-    animation: scroll1 5s infinite linear;
+    animation: scroll1 15s infinite linear;
 }
 
 .carousel:hover .scroll-cover{
