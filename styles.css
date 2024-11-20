@@ -50,3 +50,8 @@ nav a:hover {
 .genText2 {
     color: var(--dark-grayish-blue);
 }
+
+.scroll-cover{
+    animation: scroll1 2s infinite linear;
+}
+
