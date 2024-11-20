@@ -55,6 +55,9 @@ nav a:hover {
     animation: scroll1 5s infinite linear;
 }
 
+.scroll-cover:hover{
+    animation-play-state: paused;
+}
 
 @keyframes scroll1 {
     0% {
