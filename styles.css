@@ -60,10 +60,10 @@ nav a:hover {
 }
 
 @keyframes scroll1 {
-    0% {
+    from {
         transform: translateX(0);
     }
-    100% {
+    to {
         transform: translateX(-100%);
     }
 }
