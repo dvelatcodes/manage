@@ -59,14 +59,14 @@ nav a:hover {
     animation-play-state: paused;
 }
 
-@keyframes scroll1 {
+/* @keyframes scroll1 {
     0% {
         transform: translateX(0);
     }
     100% {
         transform: translateX(-100%);
     }
-}
+} */
 
 @media screen and (max-width: 760px) {
     .scroll-cover{
