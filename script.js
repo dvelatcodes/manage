@@ -112,3 +112,12 @@ setInterval(() => {
         circleChecker = 'four';
     }
 }, 1000);
+
+
+allAnchor.forEach((a)=>{
+    let currentVal = a.getAttribute('href');
+    a.addEventListener('click', ()=>{
+    //   console.log()
+    })
+})
+
