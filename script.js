@@ -14,6 +14,7 @@ const circleTwo = document.querySelector('.circleTwo');
 const circleThree = document.querySelector('.circleThree');
 const circleFour = document.querySelector('.circleFour');
 const main = document.querySelector('main');
+const allAnchor = document.querySelectorAll('a');
 let circleChecker = 'four';
 let mode = 'light';
 
