@@ -114,7 +114,6 @@ setInterval(() => {
     }
 }, 1000);
 
-
 allAnchor.forEach((a) => {
     a.addEventListener('click', () => {
         for (let j = 0; j < allAnchor.length; j++) {
