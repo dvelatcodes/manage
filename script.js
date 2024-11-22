@@ -119,7 +119,6 @@ allAnchor.forEach((a) => {
         for (let j = 0; j < allAnchor.length; j++) {
             if (a.getAttribute('href') === allAnchor[j].getAttribute('href')) {
                 // console.log(`value A ${a.getAttribute('href')}`);
-                // console.log(`  
                 allAnchor[j].style.backgroundColor = 'rgb(249 115 22)';
             }
             else {
