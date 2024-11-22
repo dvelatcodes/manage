@@ -125,7 +125,6 @@ allAnchor.forEach((a) => {
         // hrefCollection.forEach(e=>{
         //     allAnchor.forEach((a)=>{
         //         if (a.getAttribute('href') === e) {
-        //             console.log(`value A ${a.getAttribute('href')}`);
         
         for (let j = 0; j < allAnchor.length; j++) {
             // console.log(allAnchor[0].getAttribute('href'));
