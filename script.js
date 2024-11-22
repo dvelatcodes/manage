@@ -14,7 +14,7 @@ const circleTwo = document.querySelector('.circleTwo');
 const circleThree = document.querySelector('.circleThree');
 const circleFour = document.querySelector('.circleFour');
 const main = document.querySelector('main');
-const allAnchor = document.querySelectorAll('a');
+const allAnchor = document.querySelectorAll('.dots');
 const hrefCollection = ["#anisha", "#ali", "#richard", "#shanai"];
 let circleChecker = 'four';
 let mode = 'light';
@@ -41,7 +41,7 @@ moon.addEventListener('click', () => {
             if (window.innerWidth < 640) {
                 tag.style.color = 'black';
             }
-            else{
+            else {
                 tag.style.color = 'white';
             }
         })
@@ -64,7 +64,7 @@ sun.addEventListener('click', () => {
             if (window.innerWidth < 640) {
                 tag.style.color = 'black';
             }
-            else{
+            else {
                 tag.style.color = 'black';
             }
         })
@@ -114,13 +114,37 @@ setInterval(() => {
     }
 }, 1000);
 
+let check5 = 0;
+// hrefCollection.forEach((e)=>{
 
-hrefCollection.forEach((e)=>{
-    allAnchor.forEach((a)=>{
-        let currentVal = a.getAttribute('href');
-        a.addEventListener('click', ()=>{
-            
-        })
+// })
+
+allAnchor.forEach((a) => {
+    a.addEventListener('click', () => {
+        // console.log(allAnchor.length);
+        // hrefCollection.forEach(e=>{
+        //     allAnchor.forEach((a)=>{
+        //         if (a.getAttribute('href') === e) {
+        //             console.log(`value A ${a.getAttribute('href')}`);
+        //             console.log(`value E ${e}`);
+        //             a.style.backgroundColor = 'rgb(249 115 22)';
+        //         }
+        //         else{
+        //             a.style.backgroundColor = 'transparent';
+        //         }
+        //     })
+        // })
+        for (let j = 0; j < allAnchor.length; j++) {
+            // console.log(allAnchor[0].getAttribute('href'));
+            if (a.getAttribute('href') === allAnchor[j].getAttribute('href')) {
+                // console.log(`value A ${a.getAttribute('href')}`);
+                // console.log(`value E ${e}`);
+                allAnchor[j].style.backgroundColor = 'rgb(249 115 22)';
+            }
+            else {
+                allAnchor[j].style.backgroundColor = 'transparent';
+            }
+        }
     })
 })
 
