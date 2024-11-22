@@ -117,7 +117,6 @@ setInterval(() => {
 let check5 = 0;
 // hrefCollection.forEach((e)=>{
 
-
 allAnchor.forEach((a) => {
     a.addEventListener('click', () => {
         for (let j = 0; j < allAnchor.length; j++) {
