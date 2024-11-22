@@ -121,7 +121,6 @@ let check5 = 0;
 
 allAnchor.forEach((a) => {
     a.addEventListener('click', () => {
-        
         for (let j = 0; j < allAnchor.length; j++) {
             // console.log(allAnchor[0].getAttribute('href'));
             if (a.getAttribute('href') === allAnchor[j].getAttribute('href')) {
