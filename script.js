@@ -114,7 +114,6 @@ setInterval(() => {
     }
 }, 1000);
 
-let check5 = 0;
 
 allAnchor.forEach((a) => {
     a.addEventListener('click', () => {
