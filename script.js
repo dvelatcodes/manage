@@ -124,7 +124,7 @@ allAnchor.forEach((a) => {
         //         allAnchor[j].style.backgroundColor = 'transparent';
         //     }
         // }
-        
+        // a better way
         allAnchor.forEach((data)=>{
             if (a.getAttribute('href') === data.getAttribute('href')) {
                 data.style.backgroundColor = 'rgb(249 115 22)';
