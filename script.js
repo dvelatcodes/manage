@@ -15,6 +15,7 @@ const circleThree = document.querySelector('.circleThree');
 const circleFour = document.querySelector('.circleFour');
 const main = document.querySelector('main');
 const allAnchor = document.querySelectorAll('a');
+const hrefCollection = ["#anisha", "#ali", "#richard", "#shanai"];
 let circleChecker = 'four';
 let mode = 'light';
 
