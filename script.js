@@ -129,7 +129,6 @@ allAnchor.forEach((a) => {
         //             console.log(`value E ${e}`);
         //             a.style.backgroundColor = 'rgb(249 115 22)';
         //         }
-        //         else{
         
         for (let j = 0; j < allAnchor.length; j++) {
             // console.log(allAnchor[0].getAttribute('href'));
