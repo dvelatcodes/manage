@@ -132,7 +132,7 @@ allAnchor.forEach((a) => {
         //         else{
         //             a.style.backgroundColor = 'transparent';
         //         }
-        //     }
+        //     
         
         for (let j = 0; j < allAnchor.length; j++) {
             // console.log(allAnchor[0].getAttribute('href'));
