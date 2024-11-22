@@ -35,6 +35,12 @@ body button {
   border-radius: 1rem;
 }
 
+section:nth-of-type(4) {
+    width: 100vw;
+    height: auto;
+    background-color:hsl(12, 88%, 59%);
+}
+
 .blurry {
   box-shadow: 2px 6px 7px var(--base-bright-red);
 }
