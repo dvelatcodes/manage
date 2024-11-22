@@ -115,10 +115,12 @@ setInterval(() => {
 }, 1000);
 
 
-allAnchor.forEach((a)=>{
-    let currentVal = a.getAttribute('href');
-    a.addEventListener('click', ()=>{
-        
+hrefCollection.forEach((e)=>{
+    allAnchor.forEach((a)=>{
+        let currentVal = a.getAttribute('href');
+        a.addEventListener('click', ()=>{
+            
+        })
     })
 })
 
