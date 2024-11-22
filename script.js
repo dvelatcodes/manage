@@ -122,7 +122,6 @@ let check5 = 0;
 allAnchor.forEach((a) => {
     a.addEventListener('click', () => {
         // console.log(allAnchor.length);
-        // hrefCollection.forEach(e=>{
         
         for (let j = 0; j < allAnchor.length; j++) {
             // console.log(allAnchor[0].getAttribute('href'));
