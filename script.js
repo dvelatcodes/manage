@@ -116,14 +116,23 @@ setInterval(() => {
 
 allAnchor.forEach((a) => {
     a.addEventListener('click', () => {
-        for (let j = 0; j < allAnchor.length; j++) {
-            if (a.getAttribute('href') === allAnchor[j].getAttribute('href')) {
-                allAnchor[j].style.backgroundColor = 'rgb(249 115 22)';
+        // for (let j = 0; j < allAnchor.length; j++) {
+        //     if (a.getAttribute('href') === allAnchor[j].getAttribute('href')) {
+        //         allAnchor[j].style.backgroundColor = 'rgb(249 115 22)';
+        //     }
+        //     else {
+        //         allAnchor[j].style.backgroundColor = 'transparent';
+        //     }
+        // }
+        
+        allAnchor.forEach((data)=>{
+            if (a.getAttribute('href') === data.getAttribute('href')) {
+                data.style.backgroundColor = 'rgb(249 115 22)';
             }
             else {
-                allAnchor[j].style.backgroundColor = 'transparent';
+                data.style.backgroundColor = 'transparent';
             }
-        }
+        })
     })
 })
 
