@@ -119,6 +119,29 @@ setInterval(() => {
     }
 }, 1000);
 
+setInterval(() => {
+    if (circChecker === 'four') {
+        circFour.style.backgroundColor = 'hsl(12, 88%, 59%)';
+        circTwo.style.backgroundColor = 'rgb(255, 218, 149)';
+        circChecker = 'two';
+    }
+    else if (circChecker === 'two') {
+        circTwo.style.backgroundColor = 'hsl(12, 88%, 59%)';
+        circOne.style.backgroundColor = 'rgb(255, 218, 149)';
+        circChecker = 'one';
+    }
+    else if (circChecker === 'one') {
+        circOne.style.backgroundColor = 'hsl(12, 88%, 59%)';
+        circThree.style.backgroundColor = 'rgb(255, 218, 149)';
+        circChecker = 'three';
+    }
+    else if (circChecker === 'three') {
+        circThree.style.backgroundColor = 'hsl(12, 88%, 59%)';
+        circFour.style.backgroundColor = 'rgb(255, 218, 149)';
+        circChecker = 'four';
+    }
+}, 1000);
+
 allAnchor.forEach((a) => {
     a.addEventListener('click', () => {
         // for (let j = 0; j < allAnchor.length; j++) {
