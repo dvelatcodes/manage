@@ -21,6 +21,7 @@ const main = document.querySelector('main');
 const allAnchor = document.querySelectorAll('.dots');
 const hrefCollection = ["#anisha", "#ali", "#richard", "#shanai"];
 let circleChecker = 'four';
+let cirChecker = 'four';
 let mode = 'light';
 
 moon.addEventListener('click', () => {
