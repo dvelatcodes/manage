@@ -87,3 +87,7 @@ nav a:hover {
 .white-btn:hover{
   background-color: rgb(234, 234, 234);
 }
+
+.svg-cover:hover .svg-child {
+  fill: var(--bright-red);
+}
