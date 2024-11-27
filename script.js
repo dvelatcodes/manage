@@ -176,6 +176,9 @@ email.addEventListener('keyup', ()=>{
         message.style.display = 'block';
         message.innerHTML = 'valid format';
     }
+    else if (message.value.match(/[!-\-]|\s/)){
+
+    }
 })
 
 
