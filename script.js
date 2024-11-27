@@ -176,7 +176,7 @@ email.addEventListener('keyup', ()=>{
         message.style.display = 'block';
         message.innerHTML = 'valid format';
     }
-    else if (email.value.match(/[!-\-]|[:-?]|[\[-`]|[{-~}]|\s|\//)){
+    else if (email.value.match(/[!-\-]|[:-?]|[\[-`]|[{-~}]|\s|\//) || !email.value.match(/[a-zA-Z][0-9]*@gmail.com/)){
         message.style.color = 'red';
         message.style.display = 'block';
         message.innerHTML = 'wrong format';
