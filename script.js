@@ -21,6 +21,7 @@ const main = document.querySelector('main');
 const allAnchor = document.querySelectorAll('.dots');
 const message = document.querySelector('.message');
 const email = document.querySelector('input');
+const btn  = document.querySelector('.btn');
 const hrefCollection = ["#anisha", "#ali", "#richard", "#shanai"];
 let circleChecker = 'four';
 let circChecker = 'four';
