@@ -192,6 +192,9 @@ btn.addEventListener('click', (e)=>{
         message.style.display = 'none';
         message.innerHTML = '';
     }
+    else {
+        alert('please enter valid email format');
+    }
 })
 
 
