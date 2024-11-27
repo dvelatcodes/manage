@@ -171,6 +171,8 @@ allAnchor.forEach((a) => {
 
 
 email.addEventListener('keyup', ()=>{
-    
+    if (email.value.match(/[]/)){
+        
+    }
 })
 
