@@ -90,7 +90,7 @@ hamburger.addEventListener('click', () => {
     shadow.style.display = 'block';
     nav.style.display = 'flex';
     main.style.height = '80vh';
-})
+});
 
 closeHam.addEventListener('click', () => {
     closeHam.style.display = 'none';
