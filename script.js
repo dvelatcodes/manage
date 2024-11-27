@@ -98,7 +98,7 @@ closeHam.addEventListener('click', () => {
     shadow.style.display = 'none';
     nav.style.display = 'none';
     main.style.height = 'auto';
-})
+});
 
 setInterval(() => {
     if (circleChecker === 'four') {
