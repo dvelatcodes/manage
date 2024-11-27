@@ -183,8 +183,12 @@ email.addEventListener('keyup', ()=>{
     }
 })
 
-btn.addEventListener('click', ()=>{
-    
+btn.addEventListener('click', (e)=>{
+    e.preventDefault();
+    if (message.innerHTML === 'valid format') {
+        alert('email submitted successfully');
+        
+    }
 })
 
 
