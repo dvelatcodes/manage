@@ -187,7 +187,10 @@ btn.addEventListener('click', (e)=>{
     e.preventDefault();
     if (message.innerHTML === 'valid format') {
         alert('email submitted successfully');
-        
+        email.value = '';
+        message.style.color = 'black';
+        message.style.display = 'none';
+        message.innerHTML = '';
     }
 })
 
