@@ -172,12 +172,12 @@ allAnchor.forEach((a) => {
 
 email.addEventListener('keyup', ()=>{
     if (email.value.match(/[a-zA-Z][0-9]*@gmail.com/)){
-        message.style.color = 'rgb(116, 255, 47)'
+        message.style.color = 'rgb(116, 255, 47)';
         message.style.display = 'block';
         message.innerHTML = 'valid format';
     }
     else if (message.value.match(/[!-\-]|\s/)){
-        message.style.color = 'red'
+        message.style.color = 'red';
         message.style.display = 'block';
         message.innerHTML = 'wrong format';
     }
