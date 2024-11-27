@@ -170,5 +170,7 @@ allAnchor.forEach((a) => {
 
 
 
-
+email.addEventListener('keyup', ()=>{
+    
+})
 
