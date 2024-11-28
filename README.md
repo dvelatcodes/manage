@@ -17,7 +17,7 @@ Users should be able to:
 
 ## Hosted on github domain
 
-- check out live site here [manage]()
+- check out live site here [manage](https://dvelatcodes.github.io/manage/)
 
 ## My process
 
