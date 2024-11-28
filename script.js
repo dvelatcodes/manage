@@ -21,7 +21,7 @@ const main = document.querySelector('main');
 const allAnchor = document.querySelectorAll('.dots');
 const message = document.querySelector('.message');
 const email = document.querySelector('input');
-const btn  = document.querySelector('.btn');
+const btn = document.querySelector('.btn');
 const form = document.querySelector('form');
 const hrefCollection = ["#anisha", "#ali", "#richard", "#shanai"];
 let circleChecker = 'four';
@@ -157,7 +157,7 @@ allAnchor.forEach((a) => {
         //     }
         // }
         // a better way
-        allAnchor.forEach((data)=>{
+        allAnchor.forEach((data) => {
             if (a.getAttribute('href') === data.getAttribute('href')) {
                 data.style.backgroundColor = 'rgb(249 115 22)';
             }
@@ -170,20 +170,20 @@ allAnchor.forEach((a) => {
 
 
 
-email.addEventListener('keyup', ()=>{
-    if (email.value.match(/[a-zA-Z]+[0-9]*@gmail.com/) && email.value.match(/\S/)){
-        message.style.color = 'rgb(116, 255, 47)';
-        message.style.display = 'block';
-        message.innerHTML = 'valid format';
-    }
-    if (email.value.match(/[!-\-]|[:-?]|[\[-`]|[{-~}]|\s|\//) || !email.value.match(/[a-zA-Z][0-9]*@gmail.com/)){
+email.addEventListener('keyup', () => {
+    if (email.value.match(/[!-\-]|[:-?]|[\[-`]|[{-~}]|\s|\//) || !email.value.match(/[a-zA-Z][0-9]*@gmail.com/)) {
         message.style.color = 'red';
         message.style.display = 'block';
         message.innerHTML = 'wrong format';
     }
+    else if (email.value.match(/[a-zA-Z]+[0-9]*@gmail.com/) && email.value.match(/\S/)) {
+        message.style.color = 'rgb(116, 255, 47)';
+        message.style.display = 'block';
+        message.innerHTML = 'valid format';
+    }
 })
 
-btn.addEventListener('click', (e)=>{
+btn.addEventListener('click', (e) => {
     e.preventDefault();
     if (message.innerHTML === 'valid format') {
         alert('email submitted successfully');
